@@ -1,0 +1,34 @@
+.titulo{        
+    font-size: 80px;    
+    color: #DCDCDC;
+    font-weight: 600;
+}
+
+.subtitulo{    
+    font-size: 60px;    
+    color:  #aaaaaa;
+    font-weight: 600;
+}
+
+@keyframes neon-foto {
+    50% {box-shadow: -90px -40px 300px #00ffff;}
+    100% {box-shadow: -90px -40px 300px #CF3061;}
+  }
+
+.foto{        
+    border: 7px solid #aaaaaa;    
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); 
+    transform: scaleX(-1);
+    transition: filter 0.1s linear 0.3s;
+}
+
+.foto:hover{
+    filter: grayscale(0%);
+    box-shadow: -20px -20px 70px #ca5f7f;
+    animation-name: neon-foto;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-duration: 10s;
+    
+}
