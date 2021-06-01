@@ -28,6 +28,14 @@ body {
   background-color: #272727 !important;
 }
 
+.blue-text {
+  color: #38b6ff !important;
+}
+
+.red-text {
+  color: #ff5757 !important;
+}
+
 .btn-primary,
 .btn-primary:hover,
 .btn-primary:active,
@@ -156,6 +164,7 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  list-style: none;
 }
 
 /* make sure to set some focus styles for accessibility */

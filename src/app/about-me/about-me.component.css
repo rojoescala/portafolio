@@ -8,23 +8,28 @@
 }
 
 .elemento-aboutme {
-  font-size: 2em;
+  font-size: 1.2em;
   color: #d9d9d9;
-  font-weight: 600;
+  font-weight: 400;
   font-family: "Potta One", cursive;
 }
 
 .elemento-aboutme-dark {
-  font-size: 2em;
+  font-size: 1em;
   color: #272727;
   font-weight: 600;
-  font-family: "Potta One", cursive;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .titulo {
-  font-size: 3em;
-  color: #272727;
+  font-size: 2em;
+  color: #ff5757;
   font-weight: 600;
+}
+
+.subtitulo {
+  font-size: 1.25em;
+  font-weight: 400;
 }
 
 .itson-img {
@@ -40,4 +45,14 @@
     0% 20%
   );
   border: 0.3rem solid #000;
+}
+
+.img-clip {
+  clip-path: polygon(20% 10%, 80% 10%, 100% 100%, 0% 100%);
+  filter: grayscale(100%);
+}
+
+.img-clip:hover {
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+  filter: grayscale(00%);
 }
