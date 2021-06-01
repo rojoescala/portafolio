@@ -1,34 +1,38 @@
-.titulo{        
-    font-size: 80px;    
-    color: #DCDCDC;
-    font-weight: 600;
+.margen-personalizado {
+  margin-top: 12rem;
 }
 
-.subtitulo{    
-    font-size: 60px;    
-    color:  #aaaaaa;
-    font-weight: 600;
+.titulo {
+  font-size: 6em;
+  color: #38b6ff;
+  font-weight: 600;
+}
+
+.subtitulo {
+  font-size: 4em;
+  color: #d9d9d9;
+  font-weight: 600;
 }
 
 @keyframes neon-foto {
-    50% {box-shadow: -90px -40px 300px #00ffff;}
-    100% {box-shadow: -90px -40px 300px #CF3061;}
+  50% {
+    box-shadow: -6rem 3rem 2rem #38b6ff;
   }
-
-.foto{        
-    border: 7px solid #aaaaaa;    
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%); 
-    transform: scaleX(-1);
-    transition: filter 0.1s linear 0.3s;
+  100% {
+    box-shadow: -5rem -4.5rem 3rem #ff5757;
+  }
 }
 
-.foto:hover{
-    filter: grayscale(0%);
-    box-shadow: -20px -20px 70px #ca5f7f;
-    animation-name: neon-foto;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
-    animation-duration: 10s;
-    
+.foto {
+  width: 30rem;
+  transform: scaleX(-1);
+  transition: filter 0.1s linear 0.3s;
+}
+
+.foto:hover {
+  box-shadow: -20px -20px 70px #ff5757;
+  animation-name: neon-foto;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-duration: 10s;
 }

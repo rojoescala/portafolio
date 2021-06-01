@@ -1,20 +1,8 @@
-.barra-logo{
-    font-family: 'Potta One', cursive;
-    display: inline;
-    color: #CF3061;
-    font-size: 30px;
-    padding: 14px 150px;
-    float: left;
-}
-
-.barra-elemento{
-    font-weight: 600;
-    font-family: 'Hachi Maru Pop', cursive;
-    color: #03ff4f;                
-}
-
-.barra-elemento:hover{
-    background-color: #0d1b35;            
-    color: #CF3061;
-    outline: 1px dotted #CF3061;
+.barra-logo {
+  font-family: "Potta One", cursive;
+  display: inline;
+  color: #272727;
+  font-size: 2em;
+  padding: 1rem 10rem;
+  float: left;
 }
