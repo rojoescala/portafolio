@@ -8,13 +8,15 @@ import { SocialSidebarComponent } from './social-sidebar/social-sidebar.componen
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { WorkComponent } from './work/work.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     SocialSidebarComponent,
     AboutMeComponent,
-    WelcomeComponent    
+    WelcomeComponent,
+    WorkComponent    
   ],
   imports: [
     BrowserModule,
