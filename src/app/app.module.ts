@@ -1,14 +1,16 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { SocialSidebarComponent } from './social-sidebar/social-sidebar.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AboutMeComponent } from './about-me/about-me.component';
+import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module';
+import { BottomFooterComponent } from './bottom-footer/bottom-footer.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BrowserModule } from '@angular/platform-browser';
+import { ContactComponent } from './contact/contact.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { NgModule } from '@angular/core';
+import { SocialSidebarComponent } from './social-sidebar/social-sidebar.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { WorkComponent } from './work/work.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,14 +18,12 @@ import { WorkComponent } from './work/work.component';
     SocialSidebarComponent,
     AboutMeComponent,
     WelcomeComponent,
-    WorkComponent    
+    WorkComponent,
+    ContactComponent,
+    BottomFooterComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule    
-  ],
+  imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

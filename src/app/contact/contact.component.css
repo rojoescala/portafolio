@@ -1,0 +1,18 @@
+.contact-title {
+  font-family: "Potta One", cursive;
+  font-size: 4em;
+  font-weight: 600;
+  margin-left: 6rem;
+  color: #272727;
+  text-shadow: 0.3rem 0.2rem 0 #ff5757, 0.4rem 0.3rem 0 #d9d9d9;
+}
+
+.subtitle-contact {
+  color: #d9d9d9;
+  font-size: xx-large;
+}
+
+.middle {
+  display: flex;
+  align-items: center;
+}
