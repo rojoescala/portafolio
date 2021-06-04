@@ -1,60 +1,38 @@
-.about-me-title {
+.work-title {
   font-family: "Potta One", cursive;
-  font-size: 4em;
+  font-size: 4vw;
   font-weight: 600;
   margin-left: 6rem;
   color: #272727;
+  display: inline-block;
+  padding-right: 15rem;
   text-shadow: 0.3rem 0.2rem 0 #ff5757, 0.4rem 0.3rem 0 #d9d9d9;
-}
-
-.container {
-  background-color: #272727;
-  border: 0.2rem solid #d9d9d9;
-  border-radius: 3rem;
-  width: 40rem;
-  height: 30rem;
-  display: flex;
-  align-items: center;
-}
-
-.container:hover {
-  border: 0.2rem solid #ff5757;
-  width: 39.8rem;
-  height: 29.8rem;
 }
 
 .subcontainer {
   border: 0.2rem solid #d9d9d9;
-  background: rgb(255, 87, 87);
-  background: linear-gradient(
-    164deg,
-    rgba(255, 87, 87, 1) 0%,
-    rgba(56, 182, 255, 1) 15%,
-    rgba(56, 182, 255, 1) 36%,
-    rgba(255, 87, 87, 1) 98%
-  );
   border-radius: 1rem;
-  width: 33rem;
-  height: 23rem;
-  margin: auto;
-}
-
-.subcontainer:hover {
-  width: 33.5rem;
-  height: 23.5rem;
-  cursor: pointer;
 }
 
 .titulo {
-  font-size: 2.8rem;
-  background-color: #909090;
-  padding: 0 1rem 0 3rem;
+  font-size: 1.1vw;
+  margin-left: 7rem;
+  font-weight: 450;
+}
+
+.card-titulo {
+  font-size: 1.8vw;
   text-align: center;
   font-weight: 500;
 }
 
-.subtitulo {
-  font-size: 2rem;
-  text-align: center;
-  font-weight: 500;
+.icon-email {
+  font-size: 5vw;
+}
+
+.card:hover,
+button {
+  cursor: pointer;
+  background-color: #ff5757 !important;
+  color: #272727 !important;
 }

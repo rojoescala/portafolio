@@ -1,14 +1,16 @@
 .contact-title {
   font-family: "Potta One", cursive;
-  font-size: 4em;
+  font-size: 4vw;
   font-weight: 600;
   margin-left: 6rem;
   color: #272727;
+  display: inline-block;
+  padding-right: 15rem;
   text-shadow: 0.3rem 0.2rem 0 #ff5757, 0.4rem 0.3rem 0 #d9d9d9;
 }
 
 .subtitle-contact {
-  color: #d9d9d9;
+  color: #272727;
   font-size: xx-large;
 }
 
