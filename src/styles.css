@@ -40,6 +40,10 @@ body {
   color: #272727 !important;
 }
 
+.light-text {
+  color: #d9d9d9 !important;
+}
+
 .bg-gradiante {
   background: rgb(255, 87, 87);
   background: linear-gradient(
