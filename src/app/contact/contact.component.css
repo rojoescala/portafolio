@@ -3,18 +3,20 @@
   font-size: 4vw;
   font-weight: 600;
   margin-left: 6rem;
-  color: #272727;
+  color: #d9d9d9;
   display: inline-block;
   padding-right: 15rem;
-  text-shadow: 0.3rem 0.2rem 0 #ff5757, 0.4rem 0.3rem 0 #d9d9d9;
+  text-shadow: 0.3rem 0.2rem 0 #272727, 0.4rem 0.3rem 0 #d9d9d9;
 }
 
 .subtitle-contact {
-  color: #272727;
+  color: #d9d9d9;
   font-size: xx-large;
 }
 
-.middle {
+.middle {  
   display: flex;
   align-items: center;
 }
+
+
