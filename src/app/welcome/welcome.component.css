@@ -1,38 +1,86 @@
+@media (min-width: 320px) {
+ 
 .margen-personalizado {
-  margin-top: 12rem;
+  margin-top: 4rem;
 }
 
 .titulo {
-  font-size: 5vw;
-  color: #38b6ff;
+  text-align: center;
+  font-size: 15vw;
+  color: var(--primary);
   font-weight: 600;
+  margin-top: 3rem;
 }
 
 .subtitulo {
-  font-size: 4vw;
-  color: #d9d9d9;
+  text-align: center;
+  font-size: 10vw;
+  color: var(--secondary);
   font-weight: 600;
 }
 
-@keyframes neon-foto {
-  50% {
-    box-shadow: -6rem 3rem 2rem #38b6ff;
-  }
-  100% {
-    box-shadow: -5rem -4.5rem 3rem #ff5757;
-  }
-}
-
 .foto {
-  width: 30rem;
+  width: 15rem;
+  text-align: center;
   transform: scaleX(-1);
   transition: filter 0.1s linear 0.3s;
 }
 
-.foto:hover {
-  box-shadow: -20px -20px 70px #ff5757;
-  animation-name: neon-foto;
-  animation-iteration-count: infinite;
-  animation-direction: alternate-reverse;
-  animation-duration: 10s;
+.vh{
+  height: 100vh;
 }
+
+}
+
+@media (min-width: 768px) {
+ 
+  .margen-personalizado {
+    margin-top: 10rem;
+  }
+  
+  .titulo {
+    text-align: left;
+    font-size: 5vw;
+    color: var(--primary);
+    font-weight: 600;
+  }
+  
+  .subtitulo {
+    font-size: 4vw;
+    color: var(--secondary);
+    text-align: left;
+    font-weight: 600;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  
+  @keyframes neon-foto {
+    50% {
+      box-shadow: -6rem 3rem 2rem var(--primary);
+    }
+    100% {
+      box-shadow: -5rem -4.5rem 3rem var(--danger);
+    }
+  }
+  
+  .foto {
+    width: 28vw;
+    float: right;
+    transform: scaleX(-1);
+    transition: filter 0.1s linear 0.3s;
+  }
+  
+  .foto:hover {
+    box-shadow: -20px -20px 70px var(--danger);;
+    animation-name: neon-foto;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-duration: 10s;
+  }
+  
+  .vh{
+    height: 75vh;
+  }
+  
+  }
+

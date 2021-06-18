@@ -1,12 +1,12 @@
 .work-title {
   font-family: "Potta One", cursive;
-  font-size: 4vw;
+  font-size: 4.2rem;
   font-weight: 600;
   margin-left: 6rem;
   color: #d9d9d9;
   display: inline-block;
-  padding-right: 15rem;
-  text-shadow: 0.3rem 0.2rem 0 #272727, 0.4rem 0.3rem 0 #d9d9d9;
+  padding-right: 5vw;
+  text-shadow: 0.3vw 0.2vw 0 #272727, 0.4vw 0.3vw 0 #d9d9d9;
 }
 
 .subcontainer {
@@ -16,19 +16,19 @@
 }
 
 .titulo {
-  font-size: 1.1vw;
-  margin-left: 7rem;
+  font-size: 1.2rem;
+  margin-left: 7vw;
   font-weight: 450;
 }
 
 .card-titulo {
-  font-size: 1.8vw;
+  font-size: 1.8rem;
   text-align: center;
   font-weight: 500;
 }
 
 .icon-email {
-  font-size: 5vw;
+  font-size: 5rem;
 }
 
 .card:hover,
