@@ -1,22 +1,56 @@
+@media (min-width: 320px) {
+
 .contact-title {
+  margin-top: 5rem;
+  text-align: center;
   font-family: "Potta One", cursive;
-  font-size: 4vw;
+  font-size: 3rem;
   font-weight: 600;
-  margin-left: 6rem;
+  color: var(--secondary);
+  display: block;  
+  text-shadow: 0.3vw 0.2vw 0 #272727, 0.4vw 0.3vw 0 #d9d9d9;
+}
+
+.subtitle-contact {  
   color: #d9d9d9;
-  display: inline-block;
-  padding-right: 15rem;
-  text-shadow: 0.3rem 0.2rem 0 #272727, 0.4rem 0.3rem 0 #d9d9d9;
+  font-size: large;
 }
 
-.subtitle-contact {
-  color: #d9d9d9;
-  font-size: xx-large;
+button{
+  margin-bottom: 8rem;
 }
 
-.middle {  
-  display: flex;
-  align-items: center;
 }
 
+
+
+@media (min-width: 760px) {
+
+  .contact-title {
+    font-family: "Potta One", cursive;
+    font-size:4.2rem;
+    font-weight: 600;
+    margin-left: 6vw;
+    color: #d9d9d9;
+    display: inline-block;
+    padding-right: 5vw;
+    text-shadow: 0.3vw 0.2vw 0 #272727, 0.4vw 0.3vw 0 #d9d9d9;
+  }
+  
+  .subtitle-contact {
+    margin-top: 6.5rem;
+    color: #d9d9d9;
+    font-size: xx-large;
+  }
+  
+  .middle {  
+    display: flex;
+    align-items: center;
+  }
+
+  .vh{
+    height: 75vh;
+  }
+  
+  }
 

@@ -6,17 +6,29 @@
   Rojo coral #ff5757
   Gris calido #d9d9d9
   azul #38b6ff
+  Nvo gris: #6c757d
 */
 
 :root {
   --primary: #38b6ff;
   --danger: #ff5757;
   --secondary: #d9d9d9;
+  --dark: #272727;
+  --new-gray: #6c757d;
 }
 
 body {
   background: #272727;
   color: #d9d9d9;
+}
+
+body::-webkit-scrollbar{
+ width: .5rem;
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: var(--danger);
+  border-radius: 8rem;
 }
 
 

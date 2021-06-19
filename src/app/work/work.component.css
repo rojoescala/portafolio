@@ -1,11 +1,12 @@
+@media (min-width: 320px) {
+
 .work-title {
+  text-align: center;
   font-family: "Potta One", cursive;
-  font-size: 4.2rem;
+  font-size: 3rem;
   font-weight: 600;
-  margin-left: 6rem;
-  color: #d9d9d9;
-  display: inline-block;
-  padding-right: 5vw;
+  color: var(--secondary);
+  display: block;  
   text-shadow: 0.3vw 0.2vw 0 #272727, 0.4vw 0.3vw 0 #d9d9d9;
 }
 
@@ -16,24 +17,78 @@
 }
 
 .titulo {
-  font-size: 1.2rem;
-  margin-left: 7vw;
+  font-size: 1rem;  
   font-weight: 450;
 }
 
 .card-titulo {
-  font-size: 1.8rem;
+  font-size: 6vw;
   text-align: center;
   font-weight: 500;
 }
 
 .icon-email {
-  font-size: 5rem;
+  font-size: 10vw;
 }
 
-.card:hover,
-button {
-  cursor: pointer;
-  background-color: #ff5757 !important;
-  color: #272727 !important;
+.card{
+  background-color: var(--dark);
 }
+
+}
+
+
+@media (min-width: 760px) {
+
+  .work-title {
+    font-family: "Potta One", cursive;
+    font-size:4.2rem;
+    font-weight: 600;
+    margin-left: 6vw;
+    color: #d9d9d9;
+    display: inline-block;
+    padding-right: 5vw;
+    text-shadow: 0.3vw 0.2vw 0 #272727, 0.4vw 0.3vw 0 #d9d9d9;
+  }
+  
+  .subcontainer {
+    border: 0.2rem solid #d9d9d9;
+    border-radius: 1rem;
+    margin: auto;
+  }
+  
+  .titulo {
+    font-size: 1.2rem;
+    margin-left: 7vw;
+    font-weight: 450;
+  }
+  
+  .card-titulo {
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  .icon-email {
+    font-size: 5rem;
+  }
+
+  .card{
+    margin-top: 5rem;
+  }
+  
+  .card:hover, button{
+    cursor: pointer;
+    background-color: #ff5757;
+    color: #272727;
+  }
+
+  button:hover{
+    background-color: #272727;
+  }
+
+  .vh{
+    height: 100vh;
+  }
+  
+  }

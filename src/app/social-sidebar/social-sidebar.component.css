@@ -1,5 +1,18 @@
+.navbar{  
+  position: fixed;
+  bottom: 0.7rem;
+  padding: 0;
+}
+
 .side-icon {
   color: #ff5757;
-  font-size: 1.7vw;
-  display: inline;
+  font-size: 2rem;
+  display: inline;  
 }
+
+.side-icon:hover {
+  color: var(--primary);
+  cursor: pointer;  
+}
+
+

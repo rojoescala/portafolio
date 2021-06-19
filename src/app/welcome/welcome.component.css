@@ -64,7 +64,7 @@
   }
   
   .foto {
-    width: 28vw;
+    width: 27vw;
     float: right;
     transform: scaleX(-1);
     transition: filter 0.1s linear 0.3s;

@@ -1,8 +1,25 @@
-.barra-logo {
-  font-family: "Potta One", cursive;
-  display: inline;
-  color: #272727;
-  font-size: 2vw;
-  padding: 1rem 10rem;
-  float: left;
+.bg-red{
+  background-color: var(--danger);
+}
+
+.btn-danger,
+.btn-danger:active,
+.btn-danger:visited,
+.btn-danger:focus {
+  background-color: var(--danger) !important;
+  border-color: var(--danger) !important;
+}
+
+.btn-danger:hover{
+  border-color: var(--dark) !important;
+}
+
+@media (min-width: 320px) {
+
+  .barra-logo {
+    font-family: "Potta One", cursive;    
+    color: #272727;
+    font-size: 1rem;      
+  }
+
 }
