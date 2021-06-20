@@ -20,6 +20,8 @@
     "@angular/platform-browser-dynamic": "~11.2.7",
     "@angular/router": "~11.2.7",
     "bootstrap-icons": "^1.4.1",
+    "ngx-page-scroll": "^7.0.5",
+    "ngx-page-scroll-core": "^7.0.5",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.3"
