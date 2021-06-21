@@ -5,11 +5,13 @@ import { BottomFooterComponent } from './bottom-footer/bottom-footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
 import { ContactComponent } from './contact/contact.component';
+import { MiPapillaComponent } from './work/mi-papilla/mi-papilla.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NgModule } from '@angular/core';
 import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
 import { NgxPageScrollModule } from 'ngx-page-scroll';
 import { SocialSidebarComponent } from './social-sidebar/social-sidebar.component';
+import { UemailComponent } from './work/uemail/uemail.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { WorkComponent } from './work/work.component';
 
@@ -23,6 +25,8 @@ import { WorkComponent } from './work/work.component';
     WorkComponent,
     ContactComponent,
     BottomFooterComponent,
+    UemailComponent,
+    MiPapillaComponent
   ],
   imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule, NgxPageScrollModule, NgxPageScrollCoreModule],
   providers: [],
